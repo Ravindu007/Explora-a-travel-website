@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300&display=swap");
+* {
+  font-family: "Lato", sans-serif;
+}
+
+.header .block {
+  background-color: rgba(0, 0, 0, 0.411);
+}
+
+.book #book {
+  position: absolute;
+  right: 10px;
+}
+
+.book .booking-form:hover {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+}
+
+.packages #price,
+.packages #price1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.packages .card:hover {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+}
+
+.services .icons {
+  font-size: 80px;
+}
+
+.services .card {
+  max-height: 17rem;
+}
+
+.services .card:hover {
+  border: 1px solid black;
+}
+
+.gallery:hover {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
