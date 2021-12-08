@@ -15,39 +15,40 @@
 
     <button class="navbar-toggler" data-toggle="collapse" data-target="#menu"><span class="navbar-toggler-icon"></span></button>
 
-    <div class="collapse navbar-collapse" id="menu">
+    <div class="collapse navbar-collapse justify-content-center" id="menu">
       <ul class="navbar-nav">
-        <li class="nav-item active"><a href="" class="nav-link">Home</a></li>
-        <li class="nav-item"><a href="" class="nav-link">Booking</a></li>
-        <li class="nav-item"><a href="" class="nav-link">Packages</a></li>
-        <li class="nav-item"><a href="" class="nav-link">Services</a></li>
-        <li class="nav-item"><a href="" class="nav-link">Gallery</a></li>
-        <li class="nav-item"><a href="" class="nav-link">Review</a></li>
+        <li class="nav-item active"><a href="#home" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="#booking" class="nav-link">Booking</a></li>
+        <li class="nav-item"><a href="#packages" class="nav-link">Packages</a></li>
+        <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+        <li class="nav-item"><a href="#gallery" class="nav-link">Gallery</a></li>
+        <li class="nav-item"><a href="#review" class="nav-link">Review</a></li>
+        <li class="nav-item"><a href="#contact" class="nav-link">contact</a></li>
       </ul>
     </div>
   </nav>
 
-  <section class="header">
+  <section class="header" id="home">
     
     <div class="carousel slide carousel-fade" data-ride="carousel">
       <div class="carousel-inner">
 
         <div class="carousel-item active" >
-          <video src="videos/v1.mp4" autoplay class="mx-auto d-block img-fluid"></video>
+          <img src="images/Locations/cover/c1.jpg" alt="" class="mx-auto d-block img-fluid">
           <div class="carousel-caption block">
             <h2>Explore!!!</h2>
           </div>
         </div>
 
         <div class="carousel-item ">
-          <video src="videos/v2.mp4" autoplay class="mx-auto d-block img-fluid"></video>
+          <img src="images/Locations/cover/c2.jpg" alt="" class="mx-auto d-block img-fluid">
           <div class="carousel-caption block">
             <h2>Spend Less!!!</h2>
           </div>
         </div>
 
         <div class="carousel-item ">
-          <video src="videos/v3.mp4" autoplay class="mx-auto d-block img-fluid"></video>
+          <img src="images/Locations/cover/c3.jpg" alt="" class="mx-auto d-block img-fluid">
           <div class="carousel-caption block">
             <h2>Enjoy more!!!</h2>
           </div>
@@ -59,7 +60,7 @@
   </section>
 
 
-  <section class="book">
+  <section class="book mt-5" id="booking">
     <div class="container">
       <div class="row">
         <div class="col-12 text-center">
@@ -110,7 +111,7 @@
 
 
 
-  <section class="packages mt-5">
+  <section class="packages mt-5" id="packages">
     <div class="container mt-5">
       <div class="row text-center">
         <div class="col-12">
@@ -301,7 +302,7 @@
   </section>
 
 
-  <section class="services mt-5">
+  <section class="services mt-5" id="services">
     <div class="container">
 
       <div class="row text-center">
@@ -359,7 +360,7 @@
 
 
 
-  <section class="gallery mt-5">
+  <section class="gallery mt-5" id="gallery">
     <div class="container">
 
       <div class="row text-center">
@@ -529,9 +530,161 @@
 
 
 
-  <section class="review"></section>
-  <section class="contact"></section>
-  <section class="end"></section>
+  <section class="review mt-5" id="review">
+    <div class="container">
+
+      <div class="row text-center">
+        <div class="col-12">
+          <h2><span class="text-warning">R</span>eviews</h2>
+        </div>
+      </div>
+
+      <div class="row">
+
+        <div class="col-12 col-md-4 rev-card">
+          <div class="row">
+            <div class="col-6 col-md-12">
+              <img src="images/user/a1.jpg" alt="" class="mx-auto d-block img-fluid mt-2">
+            </div>
+            <div class="col-6 col-md-12">
+               <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum earum voluptatibus iure ea voluptate modi.</p>
+            </div>
+          </div>          
+        </div>
+
+        <div class="col-12 col-md-4 rev-card">
+          <div class="row">
+            <div class="col-6 col-md-12">
+              <img src="images/user/a2.jpg" alt="" class="mx-auto d-block img-fluid mt-2">
+            </div>
+            <div class="col-6 col-md-12">
+               <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum earum voluptatibus iure ea voluptate modi.</p>
+            </div>
+          </div>          
+        </div>
+
+        <div class="col-12 col-md-4 rev-card">
+          <div class="row">
+            <div class="col-6 col-md-12">
+              <img src="images/user/a3.jpg" alt="" class="mx-auto d-block img-fluid mt-2">
+            </div>
+            <div class="col-6 col-md-12">
+               <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum earum voluptatibus iure ea voluptate modi.</p>
+            </div>
+          </div>          
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <section class="contact mt-5" id="contact">
+    <div class="container">
+
+      <div class="row text-center">
+        <div class="col-12">
+          <h2><span class="text-warning">C</span>ontacts</h2>
+        </div>
+      </div>
+
+      <div class="row">
+
+        <div class="d-none d-sm-block col-md-6">
+          <img src="images/booking/c1.png" alt="" class="mx-auto d-block img-fluid">
+        </div>
+
+        <div class="col-md-6">
+          <form action="">
+            <!-- Name -->
+            <div class="row">
+              <div class="col-6">
+                <div class="form-group">
+                  <label for="firstName">First Name</label>
+                  <input type="text" name="firstName" id="firstName" class="form-controller" placeholder="Enter First Name">
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="form-group">
+                  <label for="lastName">Last Name</label>
+                  <input type="text" name="lastName" id="lastName" class="form-controller" placeholder="Enter last Name">
+                </div>
+              </div>
+            </div>
+
+            <!-- Email -->
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" name="email" id="email" class="form-control" placeholder="user@gmail.com">
+            </div>
+
+            <!-- message -->
+            <div class="form-group">
+              <label for="message">Message</label>
+              <input type="text" name="message" id="message" class="form-control" style="height: 5rem;">
+            </div>
+
+            <button class="btn btn-warning">Submit</button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <section class="end mt-5">
+    <div class="container">
+
+      <div class="row">
+
+        <div class="d-none d-md-block col-md-3">
+          <h5>About us</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ipsam perferendis velit architecto enim magni.</p>
+        </div>
+
+        <div class="col-md-3">
+          <ul>
+            <li> <h5>Branches <br></h5></li>
+            <li>India</li>
+            <li>Sri Lanka</li>
+            <li>Malasia</li>
+            <li>Miyanmar</li>
+          </ul>
+        </div>
+
+        <div class="d-none d-md-block  col-md-3">
+          <ul>
+            <li><h5>Quick links</h5></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#booking">Booking</a></li>
+            <li><a href="#packages">Packages</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#review">Review</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-3">  
+          <ul>
+            <li><h5>Follow Us <br></h5></li>
+            <li><a href="">Facebook</a></li>
+            <li><a href="">Instagram</a></li>
+            <li><a href="">Youtube</a></li>
+            <li><a href="">Tiktok</a></li>
+          </ul>
+        </div>
+
+      </div>    
+    </div>
+
+    <div class="row bottom bg-dark">
+      <div class="col-12">
+       Explora Travels &copy; 2021 all right received 
+      </div>
+   </div>
+   
+  </section>
   
   <!-- script files -->
   <script src="script.js"></script>

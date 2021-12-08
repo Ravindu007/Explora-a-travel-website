@@ -34,7 +34,8 @@
 }
 
 .services .card {
-  max-height: 17rem;
+  margin-top: 10px;
+  height: 18rem;
 }
 
 .services .card:hover {
@@ -44,5 +45,39 @@
 .gallery:hover {
   background-color: rgba(0, 0, 0, 0.75);
   color: white;
+}
+
+.end {
+  background-color: black;
+  color: white;
+}
+
+.end h5 {
+  color: #ffae00;
+}
+
+.end ul {
+  list-style: none;
+}
+
+.end ul a {
+  text-decoration: none;
+  color: white;
+}
+
+.end .bottom {
+  text-align: center;
+}
+
+@media screen and (max-width: 576px) {
+  .end {
+    font-size: 12px;
+  }
+  .end ul li {
+    display: inline-block;
+  }
+  .end ul li a {
+    margin: 2px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
